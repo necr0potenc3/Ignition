@@ -1,0 +1,11 @@
+; Dll.def
+
+LIBRARY      "Ignition"
+DESCRIPTION  'Ignition Dynamic Link Library'
+
+EXPORTS
+	Startup @1
+	GetErrorText @2
+
+SECTIONS
+	Shared READ WRITE SHARED
